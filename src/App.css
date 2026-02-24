@@ -5,22 +5,29 @@
 }
 
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
 
 .container{
-
+  padding: 10px;
+  background-color: rgba(240, 255, 255, 0.488);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
 }
 
+.container h2{
+  font-size: 30px;
+  background-color: blue;
+  border-radius: 4px;
+  color: #fff;
+  width: 180px;
+  padding: 3px;
+}
+
+.container p{
+  font-weight: bolder;
+}
+
+.container p span{
+  color: rgb(0, 0, 0);
+}
